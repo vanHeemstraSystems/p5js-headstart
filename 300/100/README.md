@@ -50,14 +50,14 @@ A function in javascript is made of the following parts:
 - The name of the function (must start with a letter, and contain only letters, numbers, and underscores).
  
 - A list of parameters enclosed in parentheses
--- We'll cover parameters in more detail later.
--- The parentheses are required even if there are no parameters.
+- - We'll cover parameters in more detail later.
+- - The parentheses are required even if there are no parameters.
 
 - The body of the function
 
--- Starts with an open curly brace {
--- Followed by a series of statements.
--- These statements will be executed each time the function is called.
--- Ends with a closing curly brace }
+- - Starts with an open curly brace {
+- - Followed by a series of statements.
+- - These statements will be executed each time the function is called.
+- - Ends with a closing curly brace }
 
 
