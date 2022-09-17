@@ -76,4 +76,24 @@ The **createCanvas** function takes two parameters*: the width of the canvas, an
 
 * *technically createCanvas also takes a third optional parameter, a constant which specifies the type of renderer (two dimensional graphics: P2D, or  three dimensional graphics: WEBGL).*
 
+## 400 - Filling the Canvas with a Color
+
+Currently our sketch is pretty boring, it's just a plain white canvas on a plain white page (pretty much invisible). Let's make it visible by filling it with a single solid color.
+
+The [background](https://p5js.org/reference/#/p5/background) function will fill the canvas with a color. There are several ways to specify what color to use.
+
+```
+// This function will automatically be called once
+// when we run our sketch
+function setup() {
+	createCanvas(400, 400);
+	// Let's make our canvas light blue
+	background('LightBlue');
+}
+```
+
+### 100 - Named Colors
+
+Certain colors can be specified using a text value that specified the name of the color. A text value in javascript, also called a string, is a series of characters enclosed in either 'single' or "double" quotes*. You can find a list of named colors on wikipedia (https://en.wikipedia.org/wiki/Web_colors#Extended_colors), or use this tool (https://enes.in/sorted-colors/) to find the names of colors with a particular hue.
+
 
