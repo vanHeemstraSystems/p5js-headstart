@@ -96,4 +96,11 @@ function setup() {
 
 Certain colors can be specified using a text value that specified the name of the color. A text value in javascript, also called a string, is a series of characters enclosed in either 'single' or "double" quotes*. You can find a list of named colors on wikipedia (https://en.wikipedia.org/wiki/Web_colors#Extended_colors), or use this tool (https://enes.in/sorted-colors/) to find the names of colors with a particular hue.
 
+```
+// fill the canvas with light blue
+background('LightBlue');
+```
+
+* *Beware when pasting code from certain applications, some programs turn normal quote characters into “left and right” quote characters. Javascript won't like this.*
+
 
