@@ -74,6 +74,6 @@ To call a function in javascript you simply use that function's name followed by
 
 The **createCanvas** function takes two parameters*: the width of the canvas, and the height of the canvas. For starters we will create a canvas that is 400 pixels square. You can find documentation of the createCanvas function and all of the functions provided by p5js on [the p5js.org reference site](https://p5js.org/reference/#/p5/createCanvas).
 
-*technically createCanvas also takes a third optional parameter, a constant which specifies the type of renderer (two dimensional graphics: P2D, or  three dimensional graphics: WEBGL).*
+* *technically createCanvas also takes a third optional parameter, a constant which specifies the type of renderer (two dimensional graphics: P2D, or  three dimensional graphics: WEBGL).*
 
 
