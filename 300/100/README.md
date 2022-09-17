@@ -60,4 +60,20 @@ A function in javascript is made of the following parts:
 - - These statements will be executed each time the function is called.
 - - Ends with a closing curly brace }
 
+The most important thing that happens in the setup function is the creation of our canvas, which is where our graphics will be displayed. To do this we call the p5js **createCanvas** function.
+
+```
+// This function will automatically be called once
+// when we run our sketch
+function setup() {
+	createCanvas(400, 400);
+}
+```
+
+To call a function in javascript you simply use that function's name followed by an open parenthesis, a list of values to pass to the function (i.e. parameters), and a closing parenthesis. At the end of the line it is good practice to add a semi colon.
+
+The **createCanvas** function takes two parameters*: the width of the canvas, and the height of the canvas. For starters we will create a canvas that is 400 pixels square. You can find documentation of the createCanvas function and all of the functions provided by p5js on [the p5js.org reference site](https://p5js.org/reference/#/p5/createCanvas).
+
+*technically createCanvas also takes a third optional parameter, a constant which specifies the type of renderer (two dimensional graphics: P2D, or  three dimensional graphics: WEBGL).*
+
 
