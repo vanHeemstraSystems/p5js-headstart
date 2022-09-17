@@ -31,6 +31,33 @@ Multi-line comments start with a forward slash followed immediately by an asteri
 
 Comments don't **do** anything when a sketch runs, but they are useful for explaining what the code around them is doing, and you'll see a lot of them in this tutorial.
 
+## 300 - The setup Function
 
+Every p5js sketch needs a **setup** function. But what is a function, you might ask? A function is a way to group together a series of javascript statements and give them a name. You can create your own functions that you will call later, which is a convenient way to reuse the same lines of code without typing them repeatedly in different places. But in the case of the **setup** function, this is a specially named function that p5js will call for us when the sketch first starts.
+
+```
+// This function will automatically be called once
+// when we run our sketch
+function setup() {
+	// Our setup code will go here.
+}
+```
+
+A function in javascript is made of the following parts:
+
+- The **function** keyword
+ 
+- The name of the function (must start with a letter, and contain only letters, numbers, and underscores).
+ 
+- A list of parameters enclosed in parentheses
+-- We'll cover parameters in more detail later.
+-- The parentheses are required even if there are no parameters.
+
+- The body of the function
+
+-- Starts with an open curly brace {
+-- Followed by a series of statements.
+-- These statements will be executed each time the function is called.
+-- Ends with a closing curly brace }
 
 
